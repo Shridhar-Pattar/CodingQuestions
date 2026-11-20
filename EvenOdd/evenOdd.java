@@ -1,21 +1,19 @@
+package EvenOdd;
 import java.util.Scanner;
 
-public class positiveNegative {
+public class evenOdd {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the number");
         int n = sc.nextInt();
-        if (n>0) {
-            System.err.println("The number is positive number");
+
+        if (n%2==0) {
+            System.out.println("Even Number");
             
         }
         else{
-            System.out.println("The number is negative number");
+            System.out.println("Odd Number");
         }
-
-
-
-
     }
 }
