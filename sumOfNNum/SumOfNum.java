@@ -1,3 +1,4 @@
+package sumOfNNum;
 import java.util.Scanner;
 
 public class SumOfNum {
@@ -25,7 +26,7 @@ public class SumOfNum {
       sum = n*(n+1)/2;
      
       System.out.println(sum);
-        sc.close();
+      sc.close();
     
     }
 }
