@@ -14,6 +14,7 @@ public class positiveNegative {
         else{
             System.out.println("The number is negative number");
         }
+        sc.close();
 
 
 

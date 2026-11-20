@@ -15,5 +15,6 @@ public class evenOdd {
         else{
             System.out.println("Odd Number");
         }
+        sc.close();
     }
 }
