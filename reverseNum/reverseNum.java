@@ -1,6 +1,5 @@
 package reverseNum;
 
-import java.util.Arrays;
 
 public class reverseNum {
        
@@ -20,7 +19,7 @@ public class reverseNum {
     public static void main(String[] args) {
         
         System.out.println(getReverseOfNum(12345));
-        
+
        
 
 

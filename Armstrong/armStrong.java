@@ -15,13 +15,7 @@ public class armStrong {
             n = n/10;
 
         }
-        if (sum == a) {
-            return true;
-        }else
-        {
-            return false;
-        }
-
+      return sum == a;
     }
      
     public static void main(String[] args) {
